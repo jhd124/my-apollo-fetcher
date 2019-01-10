@@ -1,25 +1,26 @@
-# wx-apollo-fetcher
+# my-apollo-fetcher
 
 在微信小程序中使用apollo client所需要的fetcher
+是wx-apollo-fetcher的fork
 
 # 安装
 ```
-npm install wx-apollo-fetcher --save
+npm install my-apollo-fetcher --save
 ```
 或者
 ```
-yarn add wx-apollo-fetcher
+yarn add my-apollo-fetcher
 ```
 
 # 使用
 
 ```js
 import { createHttpLink } from "apollo-link-http"; // 或者 apollo-link-batch-http
-import wxApolloFetcher from "wx-apollo-fetcher";
+import myApolloFetcher from "my-apollo-fetcher";
 
 const link = createHttpLink({ 
     uri: "xxxxx",
-    fetch: wxApolloFetcher,
+    fetch: myApolloFetcher,
 });
 
 ```
