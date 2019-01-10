@@ -3,16 +3,16 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.default = wxApolloFetcher;
-function wxApolloFetcher(url, _ref) {
+exports.default = myApolloFetcher;
+function myApolloFetcher(url, _ref) {
     var body = _ref.body,
         method = _ref.method,
         headers = _ref.headers;
 
     return new Promise(function (resolve) {
-        return wx.request({
+        return my.httpRequest({
             url: url,
-            header: headers,
+            headers: headers,
             method: method,
             data: body,
             dataType: "text",
