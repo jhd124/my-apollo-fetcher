@@ -3,7 +3,7 @@
 
 export default function myApolloFetcher(url, { body, method, headers }) {
     return new Promise(resolve =>
-        wx.request({
+        my.httpRequest({
             url,
             headers,
             method,
