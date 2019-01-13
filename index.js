@@ -1,11 +1,11 @@
 
 
 
-export default function wxApolloFetcher(url, { body, method, headers }) {
+export default function myApolloFetcher(url, { body, method, headers }) {
     return new Promise(resolve =>
         wx.request({
             url,
-            header: headers,
+            headers,
             method,
             data: body,
             dataType: "text",
