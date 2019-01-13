@@ -1,6 +1,6 @@
 {
   "name": "my-apollo-fetcher",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "apollo httpLink fetcher for ali app",
   "main": "build",
   "repository": "git@github.com:kdong007/ali-apollo-fetcher.git",
