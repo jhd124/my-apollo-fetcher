@@ -1,11 +1,9 @@
 {
-  "name": "wx-apollo-fetcher",
+  "name": "my-apollo-fetcher",
   "version": "1.0.2",
-  "description": "apollo httpLink fetcher for wx",
+  "description": "apollo httpLink fetcher for ali app",
   "main": "build",
-  "repository": "git@github.com:kdong007/wx-apollo-fetcher.git",
-  "homepage": "https://github.com/kdong007/wx-apollo-fetcher",
-  "author": "Mars Dong <kdong007@hotmail.com>",
+  "repository": "git@github.com:kdong007/ali-apollo-fetcher.git",
   "keywords": [
     "wechat",
     "wx",
