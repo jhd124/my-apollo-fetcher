@@ -5,8 +5,7 @@
   "main": "build",
   "repository": "git@github.com:kdong007/ali-apollo-fetcher.git",
   "keywords": [
-    "wechat",
-    "wx",
+    "支付宝小程序",
     "apollo",
     "graphql"
   ],
